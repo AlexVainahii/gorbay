@@ -1,0 +1,92 @@
+.contacts {
+  width: 1920px;
+  padding-top: 148px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.contacts-title {
+  margin-top: 52px;
+  margin-bottom: 34px;
+  color: var(--primary-text-color);
+  font: var(--h-1);
+  letter-spacing: -1.28px;
+}
+.contacts-main {
+  width: 100%;
+  border-top: 1px solid var(--primary-text-color);
+  padding-top: 42px;
+}
+.contacts-subtitle {
+  color: var(--primary-text-color);
+  font: var(--h-2);
+  letter-spacing: -0.48px;
+  margin-bottom: 20px;
+}
+.contacts-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-left {
+  width: 634px;
+}
+
+.contacts-accent {
+  width: 100%;
+  font: var(--accent-help-text);
+  color: var(--primary-text-color);
+  margin-bottom: 44px;
+}
+.contacts-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 55px;
+  column-gap: 138px;
+}
+.contacts-item {
+  color: var(--primary-text-color);
+}
+.contacts-tex__top {
+  font: var(--regular-text);
+  letter-spacing: 0.32px;
+  margin-bottom: 7px;
+}
+.contacts-text__bottom {
+  font: var(--accent-help-text);
+}
+.contacts-network {
+  display: flex;
+  gap: 180px;
+  align-items: center;
+  padding-top: 11px;
+}
+.contacts-icon {
+  width: 34px;
+  height: 34px;
+  stroke: var(--primary-text-color);
+}
+.contacts-network__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.contacts-right {
+  width: 523px;
+}
+.contacts-tex__map {
+  color: var(--primary-text-color);
+  font: var(--about-text);
+  margin-bottom: 16px;
+}
+.contacts-img {
+  width: 523px;
+  height: 380px;
+  flex-shrink: 0;
+}
+.contacts-consultation {
+  width: 1920px;
+  margin: 0 auto;
+
+  padding: 120px 0;
+}

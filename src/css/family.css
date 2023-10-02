@@ -1,0 +1,20 @@
+.family {
+  width: 1920px;
+  padding-top: 148px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.family-title {
+  margin-top: 52px;
+  margin-bottom: 34px;
+  color: var(--primary-text-color);
+  font: var(--h-1);
+  letter-spacing: -1.28px;
+}
+.family-consultation {
+  width: 1920px;
+  margin: 0 auto;
+
+  padding: 120px 0;
+}

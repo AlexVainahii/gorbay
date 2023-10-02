@@ -1,0 +1,107 @@
+.consult {
+  width: 1300px;
+  height: 490px;
+  border-radius: 1px;
+  border: 1px solid var(--link-text-color);
+  background-color: var(--primary-background-color);
+  padding: 56px 111px 56px 71px;
+  display: flex;
+  /* align-items: center; */
+  gap: 47px;
+  box-sizing: border-box;
+}
+
+.consult-left {
+  width: 437px;
+}
+.consult-right {
+  width: 634px;
+}
+.consult-title {
+  font: var(--h-2);
+  color: var(--primary-text-color);
+  letter-spacing: -0.48px;
+  margin-bottom: 24px;
+}
+.consult-text {
+  font: var(--consult-text);
+  color: var(--primary-text-color);
+  margin-bottom: 25px;
+}
+.consult-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.consult-list + .consult-list {
+  margin-top: 26px;
+  gap: 32px;
+}
+.consult-item {
+}
+.consult-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--secondary-background-color);
+}
+.consult-icon {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.consult-input {
+  box-sizing: border-box;
+  display: flex;
+  width: 634px;
+  height: 57px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid var(--secondary-text-color);
+  align-items: center;
+  outline: none;
+}
+.consult-wrapper__input {
+  width: 634px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.consult-wrapper__input > .consult-input {
+  width: 301px;
+}
+.consult-textarea {
+  display: flex;
+  box-sizing: border-box;
+  width: 634px;
+  height: 110px;
+  padding: 16px;
+  border: 1px solid var(--secondary-text-color);
+  outline: none;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  text-wrap: wrap;
+  overflow: hidden;
+}
+
+.consult-textarea::placeholder {
+  vertical-align: top;
+  text-align: top;
+}
+
+.consult-button {
+  width: 200px;
+  height: 82px;
+  border-radius: 2px;
+  background: var(--link-text-color);
+  display: inline-flex;
+  padding: 32px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font: var(--button-text);
+  color: var(--primary-background-color);
+}

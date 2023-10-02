@@ -1,0 +1,120 @@
+.prices {
+  width: 1920px;
+  padding-top: 148px;
+  padding-bottom: 120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.row-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.row-item {
+  color: var(--secondary-text-color);
+  font: var(--nav-text);
+  letter-spacing: 0.64px;
+}
+.row-item:last-child {
+  color: var(--link-text-color);
+}
+.row-icon {
+  width: 6px;
+  height: 10px;
+  stroke: currentColor;
+}
+
+.row-link {
+}
+.prices-title {
+  margin-top: 52px;
+  margin-bottom: 44px;
+  color: var(--primary-text-color);
+  font: var(--h-1);
+  letter-spacing: -1.28px;
+}
+.prices-container {
+  width: 1300px;
+  height: 1445px;
+  padding-top: 56px;
+  display: flex;
+  border-top: 1px solid var(--primary-text-color);
+  box-sizing: border-box;
+}
+.prices-left {
+  height: 138 px;
+  padding-right: 72px;
+  border-right: 1px solid var(--secondary-background-color);
+  width: 595px;
+  height: 1389px;
+}
+.prices-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 24px;
+}
+.prices-right > .prices-list {
+  margin-top: 40px;
+  width: 634px;
+}
+.first {
+  border-bottom: 1px solid var(--secondary-background-color);
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+.prices-item {
+  width: 534px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+.prices-item:first-child {
+  padding-top: 0;
+}
+.prices-item:last-child {
+  padding-bottom: 0;
+}
+.prices-item + .prices-item {
+  border-top: 1px solid var(--line-color);
+}
+.prices-left > .prices-list > .prices-item > .prices-text__left {
+  width: 331px;
+}
+.prices-right > .prices-list > .prices-item {
+  width: 634px;
+}
+.prices-text__title {
+  color: var(--primary-text-color);
+  font: var(--h-3);
+  letter-spacing: 0.68px;
+}
+.prices-text__left {
+  width: 412px;
+  color: var(--primary-text-color);
+  font: var(--prices-text-left);
+  letter-spacing: 0.2px;
+}
+.prices-text__right {
+  color: var(--link-text-color);
+  font: var(--prices-text-right);
+  letter-spacing: 0.2px;
+}
+.prices-img {
+  width: 317px;
+  height: 317px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 96px;
+}
+.prices-right {
+  padding-left: 71px;
+  height: 1389px;
+}
+.prices-right > .prices-item:last-child {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line-color);
+}

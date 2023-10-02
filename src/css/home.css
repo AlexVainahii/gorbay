@@ -1,0 +1,340 @@
+.hero {
+  background-image: linear-gradient(to bottom, #2d4f69f2, #2d4f69f2),
+    url('../img/footer.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 1920px;
+  height: 883px;
+  padding-top: 298px;
+  padding-bottom: 246px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  height: 346px;
+  width: 1079px;
+}
+.hero-subtitle {
+  margin-bottom: 15px;
+  color: var(--subtitle-text-color);
+  font: var(--h-5);
+  letter-spacing: 0.44px;
+}
+.hero-title {
+  margin-bottom: 24px;
+  color: var(--primary-background-color);
+  font: var(--h-1);
+  letter-spacing: -1.28px;
+}
+.hero-text {
+  margin-bottom: 47px;
+  color: var(--primary-background-color);
+  font: var(--paragraph-hero);
+  letter-spacing: 0.18px;
+}
+.hero-subtext {
+  color: var(--primary-background-color);
+  font: var(--paragraph-accent-hero);
+  letter-spacing: 0.18px;
+}
+.hero-wrapper_button {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-button {
+  width: 355px;
+  height: 82px;
+  border-radius: 2px;
+  background: var(--primary-background-color);
+  display: inline-flex;
+  padding: 32px 56px;
+  justify-content: center;
+  align-items: center;
+  color: var(--button-text-color);
+  font: var(--button-text);
+  border: none;
+}
+.blog {
+  width: 151px;
+  background: none;
+  border: 1px solid var(--primary-background-color);
+  color: var(--primary-background-color);
+}
+
+.privateperson {
+  width: 1920px;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+.ourclients-title {
+  color: var(--primary-text-color);
+  font: var(--h-2);
+  letter-spacing: 0.96px;
+}
+.ourclients-list {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+
+  gap: 43px;
+}
+.ourclientsn-item {
+  width: 290px;
+}
+.ourclients-img {
+  width: 76px;
+  height: 76px;
+}
+.ourclients-subtitle {
+  margin-top: 24px;
+  white-space: nowrap;
+  width: 100%;
+  color: var(--primary-text-color);
+  font: var(--h-4);
+  letter-spacing: 0.26px;
+}
+.ourclients-text {
+  margin-bottom: 24px;
+  margin-top: 16px;
+  color: var(--primary-text-color);
+  font: var(--regular-text);
+  letter-spacing: 0.32px;
+}
+.ourclients-link {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  color: var(--link-text-color);
+  font: var(--link-text-bold);
+}
+.ourclients-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  stroke: currentColor;
+}
+.enterprises {
+  width: 1920px;
+  margin: 0 auto;
+}
+.wrap-linetop {
+  padding-top: 80px;
+  border-top: 2px solid var(--secondary-text-color);
+  width: 100%;
+  padding-bottom: 101px;
+}
+.about {
+  width: 1920px;
+  height: 661px;
+  margin: 0 auto;
+}
+
+.about-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 74px;
+}
+.about-img {
+  width: 523px;
+  height: 661px;
+  flex-shrink: 0;
+}
+
+.about-textwrap {
+  width: 703px;
+  height: 504px;
+}
+.about-empty {
+  width: 310px;
+  height: 60px;
+  border-bottom: 2px solid var(--secondary-text-color);
+}
+.about-title {
+  margin-top: 37px;
+  margin-bottom: 40px;
+  color: var(--primary-text-color);
+  font: var(--h-2);
+  letter-spacing: -0.48px;
+}
+.about-text {
+  color: var(--primary-text-color);
+  font: var(--about-text);
+}
+.about-text + .about-text {
+  margin-top: 15px;
+}
+
+.about-specialtext {
+  margin-top: 40px;
+  color: var(--secondary-background-color);
+  font: var(--h-4);
+  letter-spacing: 0.26px;
+  border-left: 8px solid var(--secondary-background-color);
+  padding-left: 16px;
+  height: 62px;
+}
+
+.benefits {
+  width: 1920px;
+  height: 416px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.benefits-title {
+  color: var(--primary-text-color);
+  font: var(--h-2);
+  letter-spacing: 0.96px;
+  margin-bottom: 48px;
+}
+.benefits-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.benefits-item {
+  width: 412px;
+  height: 313px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  border: 2px solid var(--secondary-text-color);
+  padding: 32px;
+}
+.benefits-img {
+  width: 79px;
+  height: 79px;
+  flex-shrink: 0;
+  margin-bottom: 24px;
+}
+.benefits-subtitle {
+  width: 100%;
+  margin-bottom: 16px;
+  color: var(--primary-text-color);
+  font: var(--h-4);
+  letter-spacing: 0.26px;
+}
+.benefits-text {
+  width: 348px;
+  height: 100px;
+  color: var(--primary-text-color);
+  font: var(--regular-text);
+  letter-spacing: 0.32px;
+}
+.consultation {
+  width: 1920px;
+  margin: 0 auto;
+}
+.posts {
+  width: 1920px;
+  height: 731px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  padding-top: 100px;
+}
+
+.posts-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.posts-h3 {
+  font: var(--h-3);
+  color: var(--posts-text-h3);
+  letter-spacing: 0.68px;
+  margin-bottom: 12px;
+}
+.posts-title {
+  font: var(--h-2);
+  color: var(--primary-text-color);
+  letter-spacing: 0.96px;
+}
+.posts-button {
+  display: inline-flex;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  background: #2d4f69;
+  height: 51px;
+  width: 174px;
+  padding: 32px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  flex-shrink: 0;
+  color: var(--primary-background-color);
+}
+.posts-button__icon {
+  width: 20px;
+  height: 20px;
+  stroke: var(--primary-background-color);
+}
+.posts-list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.posts-item {
+  width: 412px;
+  height: 594px;
+  flex-shrink: 0;
+  border-radius: 1px;
+  border: 1px solid var(--primary-text-color);
+}
+.posts-card {
+  width: 412px;
+
+  box-sizing: border-box;
+}
+
+.posts-wrap__text {
+  padding: 30px;
+  height: 344px;
+  box-sizing: border-box;
+}
+.posts-wrap_atribut {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+.posts-atribut {
+  font: var(--button-text);
+  color: var(--primary-text-color);
+}
+.posts-atribut + .posts-atribut {
+  margin-left: 24px;
+  color: var(--posts-data-text);
+}
+.posts-subtitle {
+  font: var(--h-4);
+  color: var(--primary-text-color);
+  margin-bottom: 15px;
+}
+.posts-text {
+  font: var(--regular-text);
+  color: var(--primary-text-color);
+  margin-bottom: 18px;
+  letter-spacing: 0.32px;
+}
+.posts-link {
+  font: var(--link-text-bold);
+  color: var(--link-text-color);
+  display: flex;
+  align-items: center;
+  gap: 3;
+}
+.posts-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  stroke: var(--link-text-color);
+}

@@ -7,6 +7,17 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./navigation.css');
+@import url('./footer.css');
+@import url('./home.css');
+@import url('./consultation.css');
+@import url('./prices.css');
+@import url('./contacts.css');
+@import url('./economydisputes.css');
+@import url('./registrationllc.css');
+@import url('./liquidation.css');
+@import url('./taxdisputes.css');
+@import url('./divorce.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +33,103 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  /* Colors */
+  --secondary-background-color: #233441;
+  --text-color: #728390;
+  --title-color: #4f728c;
+  --link-text-color: #2d4f69;
+  --secondary-text-color: #d5d9dc;
+  --primary-background-color: #fff;
+  --primary-text-color: #1a1a1a;
+  --subtitle-text-color: #7e7a7a;
+  --line-color: #c7c7c7;
+  --button-text-color: #2d2d2d;
+  --posts-text-h3: #8ca7bb;
+  --posts-data-text: #898686;
+  /* Fonts */
+  --h-1: 400 64px/115% 'Gilroy', sans-serif;
+  --h-2: 400 48px/115% 'Gilroy', sans-serif;
+  --h-3: 400 34px/120% 'Gilroy', sans-serif;
+  --h-4: 500 26px/115% 'Gilroy', sans-serif;
+  --h-5: 500 22px/115% 'Gilroy', sans-serif;
+  --prices-text-right: 700 20px/110% 'Gilroy', sans-serif;
+  --paragraph-accent-hero: 700 18px/145% 'Gilroy', sans-serif;
+  --link-text-bold: 600 18px/100% 'Gilroy', sans-serif;
+  --accent-help-text: 500 22px/150% 'Gilroy', sans-serif;
+  --consult-text: 500 20px/150% 'Gilroy', sans-serif;
+  --prices-text-left: 500 20px/110% 'Gilroy', sans-serif;
+  --paragraph-hero: 500 18px/145% 'Gilroy', sans-serif;
+  --nav-text: 500 16px/100% 'Gilroy', sans-serif;
+  --paragraph: 500 16px/155% 'Gilroy', sans-serif;
+  --about-text: 400 22px/150% 'Gilroy', sans-serif;
+  --button-text: 400 18px/100% 'Gilroy', sans-serif;
+  --regular-text: 400 16px/155% 'Gilroy', sans-serif;
+  --paragraph-title: 400 16px/150% 'Gilroy', sans-serif;
+  --link-text: 400 16px/100% 'Gilroy', sans-serif;
+  --privacy-text: 400 14px/150% 'Roboto', sans-serif;
+  --language-text: 500 16px/100% 'Montserrat', sans-serif;
+  --language-text-noselect: 400 14px/100% 'Montserrat', sans-serif;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), local('Gilroy-Regular'),
+    url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), local('Gilroy-Medium'),
+    url('../fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), local('Gilroy-Semibold'),
+    url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), local('Gilroy-Bold'),
+    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: '';
+  src: local('Roboto'), local('Roboto-Regular'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: '';
+  src: local('Montserrat'), local('Montserrat-Regular'),
+    url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: '';
+  src: local('Montserrat'), local('Montserrat-Medium'),
+    url('../fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
