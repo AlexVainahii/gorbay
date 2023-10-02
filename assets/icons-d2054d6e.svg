@@ -52,7 +52,7 @@
 <path fill="none"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M3.2 3.2l12.8 12.8-12.8 12.8"></path>
 </symbol>
 <symbol id="icon-check" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M5 18l7 7 16-16"></path>
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M5 18l7 7 16-16"></path>
 </symbol>
 </defs>
 </svg>
