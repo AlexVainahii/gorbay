@@ -15,11 +15,10 @@
 @import url('./contacts.css');
 @import url('./family.css');
 @import url('./economydisputes.css');
-@import url('./registrationllc.css');
+/* @import url('./registrationllc.css');
 @import url('./liquidation.css');
 @import url('./taxdisputes.css');
-@import url('./divorce.css');
-
+@import url('./divorce.css');  */
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -41,6 +40,7 @@
   --link-text-color: #2d4f69;
   --secondary-text-color: #d5d9dc;
   --primary-background-color: #fff;
+  --line-background-color: #000;
   --primary-text-color: #1a1a1a;
   --subtitle-text-color: #7e7a7a;
   --line-color: #c7c7c7;
@@ -55,6 +55,7 @@
   --h-5: 500 22px/115% 'Gilroy', sans-serif;
   --prices-text-right: 700 20px/110% 'Gilroy', sans-serif;
   --paragraph-accent-hero: 700 18px/145% 'Gilroy', sans-serif;
+  --accent-bold-help-text: 600 22px/150% 'Gilroy', sans-serif;
   --link-text-bold: 600 18px/100% 'Gilroy', sans-serif;
   --accent-help-text: 500 22px/150% 'Gilroy', sans-serif;
   --consult-text: 500 20px/150% 'Gilroy', sans-serif;

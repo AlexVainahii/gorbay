@@ -1,0 +1,87 @@
+.edisputes {
+  width: 1920px;
+  padding-top: 148px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.edisputes-title {
+  margin-top: 44px;
+  margin-bottom: 32px;
+  color: var(--primary-text-color);
+  font: var(--h-1);
+  letter-spacing: -1.28px;
+}
+.edisputes-consultation {
+  width: 1920px;
+  margin: 0 auto;
+
+  padding: 120px 0;
+}
+.edisputes-description__list {
+  display: flex;
+  gap: 143px;
+}
+.edisputes-description__item {
+  width: 523px;
+  height: 150px;
+}
+.edisputes-description__text {
+  width: 100%;
+  color: var(--primary-text-color);
+  font: var(--regular-text);
+  letter-spacing: 0.32px;
+}
+.primary {
+  width: 633px;
+}
+.edisputes-img {
+  width: 1299px;
+  height: 333px;
+  flex-shrink: 0;
+  margin: 56px 0;
+}
+.edisputes-subtitle {
+  color: var(--primary-text-color);
+  font: var(--h-2);
+  letter-spacing: -0.48px;
+  margin-bottom: 40px;
+}
+.edisputes-punct__list {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 40px;
+}
+.edisputes-punct__item {
+  font: var(--accent-help-text);
+  color: var(--primary-text-color);
+  border-bottom: 1px solid var(--line-color);
+  padding-bottom: 24px;
+}
+.edisputes-punct__item + .edisputes-punct__item {
+  padding-top: 24px;
+}
+.edisputes-punct__link {
+  font: var(--accent-bold-help-text);
+  color: var(--secondary-background-color);
+  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+}
+.edisputes-punct__icon {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+}
+.edisputes-wrap__punct {
+  width: 100%;
+  border-top: 1px solid var(--primary-text-color);
+  padding-top: 56px;
+}
+.services-wrap {
+  display: flex;
+  align-items: start;
+  gap: 182px;
+  margin-bottom: 109px;
+}
