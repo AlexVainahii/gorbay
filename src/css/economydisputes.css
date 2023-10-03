@@ -39,9 +39,12 @@
   width: 1299px;
   height: 333px;
   flex-shrink: 0;
-  margin: 56px 0;
+  margin-top: 84px;
+  margin-bottom: 56px;
 }
 .edisputes-subtitle {
+  border-top: 1px solid var(--primary-text-color);
+  padding-top: 56px;
   color: var(--primary-text-color);
   font: var(--h-2);
   letter-spacing: -0.48px;
@@ -57,17 +60,18 @@
   color: var(--primary-text-color);
   border-bottom: 1px solid var(--line-color);
   padding-bottom: 24px;
+  display: flex;
+  gap: 16px;
 }
 .edisputes-punct__item + .edisputes-punct__item {
   padding-top: 24px;
 }
 .edisputes-punct__link {
   font: var(--accent-bold-help-text);
-  color: var(--secondary-background-color);
+  color: var(--link-text-color);
   text-decoration: underline;
   display: inline-flex;
   align-items: center;
-  gap: 15px;
 }
 .edisputes-punct__icon {
   width: 24px;
@@ -76,12 +80,79 @@
 }
 .edisputes-wrap__punct {
   width: 100%;
-  border-top: 1px solid var(--primary-text-color);
-  padding-top: 56px;
 }
-.services-wrap {
+.edisputes-specialize__wrap {
   display: flex;
   align-items: start;
-  gap: 182px;
-  margin-bottom: 109px;
+  width: 100%;
+  gap: 98px;
+  margin-bottom: 80px;
+}
+
+.edisputes-specialize__subtitle {
+  font: var(--h-3);
+  color: var(--primary-text-color);
+  letter-spacing: 0.68px;
+  font-weight: 500;
+}
+.edisputes-specialize__wraplist {
+  display: flex;
+  gap: 147px;
+  align-items: start;
+  /* width: 100%; */
+}
+.edisputes-specialize__list {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  width: 381px;
+}
+.edisputes-specialize__item {
+  width: 412px;
+  display: flex;
+  align-items: start;
+  gap: 32px;
+}
+.edisputes-specialize__icon {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  stroke: var(--line-background-color);
+  border: 1px solid var(--line-background-color);
+}
+.edisputes-specialize__text {
+  width: 340px;
+  font: var(--regular-text);
+  color: var(--primary-text-color);
+  letter-spacing: 0.32px;
+}
+
+.about-info {
+  border-top: 1px solid var(--primary-text-color);
+  padding-top: 63px;
+  padding-bottom: 83px;
+  display: flex;
+  align-items: center;
+}
+.about-info__title {
+  font: var(--h-2);
+  color: var(--primary-text-color);
+  letter-spacing: -0.48px;
+  width: 457px;
+}
+.about-info__list {
+  list-style-type: disc;
+  list-style-position: inside;
+  width: 856px;
+  height: 148px;
+  color: var(--primary-text-color);
+}
+.about-info__item {
+  font: var(--accent-help-text);
+}
+.about-info__item + .about-info__item {
+  margin-top: 20px;
+}
+.about-info__bold {
+  font-weight: 700;
 }
