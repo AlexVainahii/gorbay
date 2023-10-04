@@ -1,0 +1,94 @@
+.large {
+  width: 374px;
+  height: 66px;
+  padding: 24px 32px;
+  font: var(--button-text);
+}
+.liqid {
+  padding: 56px 0;
+  border-top: 1px solid var(--primary-text-color);
+  border-bottom: 1px solid var(--primary-text-color);
+}
+.liqid-title {
+  color: var(--primary-text-color);
+  font: var(--h-2);
+  letter-spacing: 0.96px;
+  margin-bottom: 53px;
+}
+.liqid-box {
+  display: flex;
+  gap: 143px;
+}
+.liqid-list {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+}
+.liqid-item {
+  display: flex;
+  gap: 32px;
+}
+.liqid-img {
+  width: 79px;
+  height: 79px;
+}
+.liqid-wrap__text {
+  height: 100%;
+}
+.liqid-subtitle {
+  color: var(--primary-text-color);
+  font: var(--h-4);
+  line-height: 120%;
+  letter-spacing: 0.52px;
+  margin-bottom: 16px;
+}
+.liqid-text {
+  width: 523px;
+  color: var(--primary-text-color);
+  font: var(--regular-text);
+  letter-spacing: 0.32px;
+}
+.medium {
+  width: 418px;
+}
+.cost {
+  padding-top: 56px;
+}
+.cost-title {
+  color: var(--primary-text-color);
+  font: var(--h-2);
+  letter-spacing: -0.48px;
+  margin-bottom: 32px;
+}
+.cost-wrap {
+  display: flex;
+}
+.cost-text {
+  color: var(--primary-text-color);
+  font: var(--about-text);
+  margin-right: 111px;
+  width: 443px;
+}
+.cost-list {
+  width: 523px;
+  margin-right: 49px;
+}
+.cost-item {
+  color: var(--primary-text-color);
+  font: var(--about-text);
+}
+
+.cost-item + .cost-item {
+  margin-top: 41px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.cost-img {
+  width: 142px;
+  height: 142px;
+  opacity: 0.1;
+}

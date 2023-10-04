@@ -156,6 +156,9 @@
 .nav-drop:hover {
   display: inline-flex;
 }
+.nav-drop > .nav-drop__item:hover {
+  display: inline-flex;
+}
 .nav-item:hover > .nav-button > .nav-drop {
   display: inline-flex;
 
