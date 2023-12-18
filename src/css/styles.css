@@ -17,8 +17,10 @@
 @import url('./economydisputes.css');
 @import url('./registrationllc.css');
 @import url('./liquidation.css');
-/*@import url('./taxdisputes.css');
-@import url('./divorce.css');  */
+@import url('./taxdisputes.css');
+@import url('./divorce.css');
+@import url('./posts.css');
+@import url('./find.css');
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -47,6 +49,9 @@
   --button-text-color: #2d2d2d;
   --posts-text-h3: #8ca7bb;
   --posts-data-text: #898686;
+  --load-more: #8a8a8a;
+  --border-load-more: #a9a9a9;
+  --page-back: #a3a3a3;
   /* Fonts */
   --h-1: 400 64px/115% 'Gilroy', sans-serif;
   --h-2: 400 48px/115% 'Gilroy', sans-serif;

@@ -116,6 +116,7 @@
   top: 100%;
   width: 245px;
   height: 210px;
+  z-index: 500;
 
   display: none;
   padding: 24px 32px;
@@ -136,6 +137,7 @@
   font: var(--link-text);
   letter-spacing: 0.16px;
   font: var(--language-text-noselect);
+  align-items: center;
 }
 .nav-drop__item:first-child {
   padding-top: 0;

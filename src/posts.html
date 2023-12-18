@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <div class="black">
+      <load ="partials/header.html" />
+    </div>
+    <section class="registration">
+      <div class="container">
+        <ul class="row-nav">
+          <li class="row-item">
+            <a href="index.html" class="row-link">Головна</a>
+          </li>
+          <li class="row-item">
+            <svg class="row-icon">
+              <use href="./img/icons.svg#icon-arrow-right-one"></use>
+            </svg>
+          </li>
+          <li class="row-item">
+            <a href="divorce.html" class="row-link">Блог</a>
+          </li>
+        </ul>
+        <h1 class="blog-title">Блог</h1>
+    <div class="blog-view lists">
+        <div class="blog-view__left">
+            <ul class="checkbox-list">
+                <li class="checkbox-item">
+                   <h4 class="checkbox-title">Категорії</h4>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox1" name="checkbox1">    
+                    <label class="checkbox-label"  for="checkbox1">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox1">Експертні статті</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox2" name="checkbox2">    
+                    <label class="checkbox-label"  for="checkbox2">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox2">Консультації</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox3" name="checkbox3">
+                    <label class="checkbox-label"  for="checkbox3">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox3">Корпоративні відносини</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox4" name="checkbox2">   
+                     <label class="checkbox-label"  for="checkbox4">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox4">Сімейні справи</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox5" name="checkbox3">    
+                    <label class="checkbox-label"  for="checkbox5">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox5">Спадкові справи</label>
+                </li>
+            </ul>
+            <ul class="checkbox-list">
+                <li class="checkbox-item">
+                    <h4 class="checkbox-title">Ключові теми</h4>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox6" name="checkbox1">    
+                    <label class="checkbox-label"  for="checkbox6">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox6">Поділ майна</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox7" name="checkbox2">   
+                     <label class="checkbox-label"  for="checkbox7">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox7">Поділити автомобіль</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox8" name="checkbox3">   
+                     <label class="checkbox-label"  for="checkbox8">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox8">Черга спадкоємців</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox9" name="checkbox1">    
+                    <label class="checkbox-label"  for="checkbox9">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox9">Сімейні конфлікти</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox10" name="checkbox2">   
+                     <label class="checkbox-label"  for="checkbox10">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox10">Будівництво</label>
+                </li>
+                <li class="checkbox-item">
+                    <input class="checkbox-input" type="checkbox" id="checkbox11" name="checkbox3">    
+                    <label class="checkbox-label"  for="checkbox11">
+                    <svg class="checkbox-input__check">
+                        <use href="./img/icons.svg#icon-check"></use>
+                    </svg>
+                </label>
+                    <label class="checkbox-label" for="checkbox11">Трудовий договір</label>
+                </li>
+            </ul>
+        </div>
+     <div class="blog-view__right">
+        <div class="blog-buttons">
+        <ul class="blog-list">
+          <li class="blog-item">
+            <button class="blog-button">
+              Категорії
+              <svg class="blog-icon down">
+                <use href="./img/icons.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="blog-item">
+            <button class="blog-button">
+              Ключові теми
+              <svg class="blogs-icon down">
+                <use href="./img/icons.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="blog-item">
+            <button class="blog-button active">Обрати</button>
+          </li>
+        </ul>
+        <form action="" class="finds">
+            <input type="text" class="finds-input"
+            placeholder="Пошук публікації">
+            <button class="finds-button">
+                <svg class="finds-icon">
+                    <use href="./img/icons.svg#icon-find"></use>
+                </svg>
+            </button>
+        </form>
+        <ul class="blog-list reverse">
+          <li class="blog-item">
+            <button class="blog-button">
+              <svg class="blog-icon sort">
+                <use href="./img/icons.svg#icon-arrowsdownup"></use>
+              </svg>
+              Найновіші
+            </button>
+          </li>
+          <li class="blog-item">
+            <button class="blog-button active icon-wrap">
+              <svg class="blog-icon">
+                <use href="./img/icons.svg#icon-blocks"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="blog-item">
+            <button class="blog-button icon-wrap">
+              <svg class="blog-icon">
+                <use href="./img/icons.svg#icon-lists"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+       </div>
+        <div class="cards">
+          <ul class="cards-list">
+            <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post1.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">9 червня 2023</p>
+                  </div>
+                  <h4 class="posts-subtitle">Четверта черга спадкоємців за законом. Як довести факт проживання однією сім’єю?</h4>
+                  <p class="posts-text">Коротко про спадкування за законом. Спадкуванням вважається перехід прав ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                  </div>
+                </div>
+              </li>
+              <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post2.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">9 серпня 2022</p>
+                  </div>
+                  <h4 class="posts-subtitle">Поділ майна подружжя. Як поділити незавершене або самочинне будівництво?</h4>
+                  <p class="posts-text">Поділ спільного майна подружжя є складним і багатоаспектним процесом, особливо, ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                  </div>
+                </div>
+              </li>
+              <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post3.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">14 серпня 2021</p>
+                  </div>
+                  <h4 class="posts-subtitle">Поділ майна подружжя. Як поділити автомобіль після розлучення?</h4>
+                  <p class="posts-text">За роки незалежності автомобіль став більш доступним для громадян України, однак, ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                </div>
+              </div>
+              </li>
+              <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post1.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">9 червня 2023</p>
+                  </div>
+                  <h4 class="posts-subtitle">Четверта черга спадкоємців за законом. Як довести факт проживання однією сім’єю?</h4>
+                  <p class="posts-text">Коротко про спадкування за законом. Спадкуванням вважається перехід прав ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                  </div>
+              </li>
+              <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post2.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">9 серпня 2022</p>
+                  </div>
+                  <h4 class="posts-subtitle">Поділ майна подружжя. Як поділити незавершене або самочинне будівництво?</h4>
+                  <p class="posts-text">Поділ спільного майна подружжя є складним і багатоаспектним процесом, особливо, ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                  </div>
+                </div>
+              </li>
+              <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post3.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">14 серпня 2021</p>
+                  </div>
+                  <h4 class="posts-subtitle">Поділ майна подружжя. Як поділити автомобіль після розлучення?</h4>
+                  <p class="posts-text">За роки незалежності автомобіль став більш доступним для громадян України, однак, ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                </div>
+              </div>
+              </li>
+              <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post1.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">9 червня 2023</p>
+                  </div>
+                  <h4 class="posts-subtitle">Четверта черга спадкоємців за законом. Як довести факт проживання однією сім’єю?</h4>
+                  <p class="posts-text">Коротко про спадкування за законом. Спадкуванням вважається перехід прав ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                  </div>
+              </li>
+              <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post2.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">9 серпня 2022</p>
+                  </div>
+                  <h4 class="posts-subtitle">Поділ майна подружжя. Як поділити незавершене або самочинне будівництво?</h4>
+                  <p class="posts-text">Поділ спільного майна подружжя є складним і багатоаспектним процесом, особливо, ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                  </div>
+                </div>
+              </li>
+              <li class="posts-item">
+                <div class="posts-card">
+                  <img src="../img/post3.jpg" alt="фото" class="posts-img">
+                  <div class="posts-wrap__text">
+                  <div class="posts-wrap_atribut">
+                    <p class="posts-atribut">Назва категорії</p>
+                    <p class="posts-atribut">14 серпня 2021</p>
+                  </div>
+                  <h4 class="posts-subtitle">Поділ майна подружжя. Як поділити автомобіль після розлучення?</h4>
+                  <p class="posts-text">За роки незалежності автомобіль став більш доступним для громадян України, однак, ...</p>
+                  <a href="" class="posts-link">Читати далі
+                    <svg class="posts-icon">
+                      <use href="../img/icons.svg#icon-arrow-right"></use>
+                    </svg></a>
+                </div>
+              </div>
+              </li>
+          </ul>
+        </div>
+        <button class="more">
+            <svg class="more-icon">
+                <use href="../img/icons.svg#icon-load-more"></use>
+            </svg>
+            Показати ще
+        </button>
+        <ul class="list-navigation">
+        <li class="item-navigation"><svg class="icon-navigation">
+            <use href="../img/icons.svg#icon-arrow-left"></use>
+        </svg>
+        Попередня сторінка</li>
+        <li>
+            <ul class="list-navigation_button">   
+                <li class="item-navigation_button active">1</li>
+                <li class="item-navigation_button">2</li>             
+                <li class="item-navigation_button">3</li>
+                <li class="item-navigation_button">...</li>
+                <li class="item-navigation_button">8</li>
+                <li class="item-navigation_button">9</li>
+                <li class="item-navigation_button">10</li>
+        </ul>
+    </li>
+     
+        <li class="item-navigation">
+            Наступна сторінка
+            <svg class="icon-navigation">
+            <use href="../img/icons.svg#icon-arrow-right"></use>
+        </svg>
+      </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    </section>
+    <load ="partials/footer.html" />
+  </body>
+</html>

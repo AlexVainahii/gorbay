@@ -284,14 +284,15 @@
 }
 .posts-item {
   width: 412px;
-  height: 594px;
-  flex-shrink: 0;
+  height: 593px;
+  box-sizing: border-box;
   border-radius: 1px;
   border: 1px solid var(--primary-text-color);
 }
 .posts-card {
   width: 412px;
-
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
 }
 
@@ -311,7 +312,6 @@
   color: var(--primary-text-color);
 }
 .posts-atribut + .posts-atribut {
-  margin-left: 24px;
   color: var(--posts-data-text);
 }
 .posts-subtitle {
@@ -337,4 +337,9 @@
   height: 20px;
   flex-shrink: 0;
   stroke: var(--link-text-color);
+}
+.posts-img {
+  width: 410px;
+  height: 250px;
+  box-sizing: border-box;
 }
